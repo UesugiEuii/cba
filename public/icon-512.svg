@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="80" fill="#2D3561"/>
+  <g transform="translate(256,256)">
+    <!-- 后面的牌 -->
+    <rect x="-80" y="-130" width="140" height="192" rx="20" fill="#4A5077" stroke="#6B7294" stroke-width="4" transform="rotate(-12)"/>
+    <!-- 前面的牌 -->
+    <rect x="-70" y="-122" width="140" height="192" rx="20" fill="white" stroke="#F5EDE0" stroke-width="4" transform="rotate(8)"/>
+    <!-- 牌面内容 -->
+    <g transform="rotate(8)">
+      <text x="-42" y="-66" font-family="Arial,sans-serif" font-weight="900" font-size="42" fill="#E74C3C">A</text>
+      <text x="-10" y="16" font-family="Arial,sans-serif" font-size="64" fill="#E74C3C">♥</text>
+      <text x="22" y="72" font-family="Arial,sans-serif" font-weight="900" font-size="42" fill="#E74C3C" transform="rotate(180,42,58)">A</text>
+    </g>
+    <!-- CABO 文字 -->
+    <text x="0" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-weight="900" font-size="58" fill="#FFB347" letter-spacing="4">CABO</text>
+  </g>
+</svg>
